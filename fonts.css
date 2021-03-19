@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "HATTEN";
+    src: url(./Шрифты/HATTEN.TTF);
+}
+@font-face{
+    font-family: "Open Sans Semibold";
+    src: url(./Шрифты/OpenSans-Semibold.ttf);
+}
+@font-face{
+    font-family: "Open Sans Bold";
+    src: url(./Шрифты/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family: "Open Sans Regular";
+    src: url(./Шрифты/OpenSans-Regular.ttf);
+}
+

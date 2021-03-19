@@ -1,0 +1,302 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    height: 1030px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Images/Группа\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'HATTEN';
+    text-align: right;
+    margin-top: 145px;
+}
+
+.header_content > h1 > span, .header_content > p > span{
+    color: #4d78f7;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.container{
+    margin: 0 360px;
+}
+
+.nav_list{
+    display: flex;   
+    
+}
+
+.nav_list > li{
+    padding: 0 22.5px;
+    font-size: 16px;  
+    font-family: "Open Sans Regular";
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav_list > li:hover{
+    color: #4d78f7;
+    font-family: "Open Sans Bold";
+}
+
+.nav_list > li::after{
+    content: ' ';
+    height: 2px;
+    width: 100px;
+    background-color: #4d78f7;
+    border-radius: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0;
+}
+
+.nav_list > li:hover::after{
+    opacity: 1;
+}
+
+.header_content{
+    width: 790px;
+    margin-left: auto;
+}
+
+.header_content > p{
+    width: 464px;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+    text-align: right;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.header_content_line{
+    height: 6px;
+    width: 99px;
+    border-radius: 3px;
+    background-color: #4D78F7;
+    margin-left: auto;
+}
+
+
+.header_content_button_container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skew_25{
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg); 
+}
+
+.header_content_button_form{
+    overflow: hidden;
+    width: 260px;
+}
+
+.header_content_button{
+    width: 260px;
+    height: 60px;
+    border: none;
+    background-color: #4d78f7;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Open Sans Semibold";
+}
+
+.header_content_button>span{
+    display: block;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    transform: skew(15deg); 
+}
+
+.header_content_button_el{
+    width: 15px;
+    height: 60px;
+    background-color: #4d78f7;
+    margin-right: 5px;
+    transition: .1s ease-in-out;
+}
+
+.header_stats{
+    margin: 103px auto 0 auto;
+    position: relative;
+}
+
+.header_stats_block{
+    display: flex;
+    justify-content: space-between;
+    width: 965px;
+    height: 190px;
+    background-color: #141415;
+    border-radius: 5px;
+    transform: skew(-5deg);
+    box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.6);
+    padding: 26px 65px;
+    box-sizing: border-box;
+}
+
+.header_stats_bg{
+    width: 965px;
+    height: 190px;
+    background-color: #6767f7;
+    border-radius: 5px;
+    transform: skew(-5deg);
+    position: absolute;
+    right: -30px;
+    top: -20px;
+}
+
+.header_stats_el{
+    color: #fff;
+    font-family: 'Open Sans Semibold';
+    text-align: center;
+    transform: skew(5deg);
+}
+
+.header_stats_el > p > span{
+    font-size: 19px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.header_stats_el:nth-child(3) > p > span{
+    font-size: 23px;
+}
+
+.header_stats_el:nth-child(5) > p > span{
+    font-size: 23px;
+}
+
+.header_stats_el > img{
+    fill: #4d78f7;
+    color: #4d78f7;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    display: block;
+}
+
+.stats_dec{
+    width: 1px;
+    height: 46px;
+    background-color: #fff;
+    margin: auto 0;
+}
+
+.garants{
+    display: flex;
+    margin-bottom: 82px;
+    margin-top: auto;
+}
+.garants__text{
+    
+}
+.garants__heading{
+    font-family: "HATTEN";
+    font-size: 32px;
+    font-weight: normal;
+}
+.garants__list{
+    padding: 0;
+}
+.garants__list-item{
+    display: flex;
+}
+.garants__list-image{
+    width: 28px;
+    height: 33px;
+    margin: auto 24px auto 0;
+}
+.garants__list-text{
+    font-family: "Open Sans Semibold";
+    font-size: 16px;
+}
+.garants__image{
+    margin: auto 0;
+}
+
+.advantages{
+    background-image: url(./Images/advantages_bg.png);
+    height: 730px;
+}
+.advantages__header{
+    padding-top: 98px;
+    margin-bottom: 127px;
+}
+.advantages__heading{
+    font-family: "HATTEN";
+    font-weight: normal;
+    font-size: 36px;
+    color: #fff;
+}
+.advantages__dec-line{
+    width: 88px;
+    height: 3px;
+    background-color: #4d78f7;
+}
+.advantages__description{
+    font-family: "Open Sans Semibold";
+    color: #fff;
+}
+.advantages__list{
+    display: flex;
+    justify-content: space-between;
+}
+.advantages__list-el{
+    font-family: "Open Sans Semibold";
+    font-weight: normal;
+    color: #fff;
+    width: 190px;
+}
+.advantages__img-bg{
+    height: 91px;
+    width: 91px;
+    background-color: #4d78f7;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.advantages__img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    fill: #fff;
+}
+.advantages__el-heading{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.advantages__el-text{
+    font-size: 16px;
+}
