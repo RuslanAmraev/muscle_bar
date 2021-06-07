@@ -36,8 +36,18 @@ nav{
     padding-top: 40px;
 }
 
+.highlite{
+    color: #4d78f7;
+}
+
+.heading-style{
+    font-family: "HATTEN";
+    font-size: 32px;
+    font-weight: normal;
+}
+
 .container{
-    margin: 0 360px;
+    padding: 0 340px;
 }
 
 .nav_list{
@@ -245,7 +255,10 @@ nav{
 
 .advantages{
     background-image: url(./Images/advantages_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 730px;
+    color:#fff;
 }
 .advantages__header{
     padding-top: 98px;
@@ -255,16 +268,14 @@ nav{
     font-family: "HATTEN";
     font-weight: normal;
     font-size: 36px;
-    color: #fff;
 }
-.advantages__dec-line{
+.dec-line{
     width: 88px;
     height: 3px;
     background-color: #4d78f7;
 }
-.advantages__description{
+.description{
     font-family: "Open Sans Semibold";
-    color: #fff;
 }
 .advantages__list{
     display: flex;
@@ -273,7 +284,6 @@ nav{
 .advantages__list-el{
     font-family: "Open Sans Semibold";
     font-weight: normal;
-    color: #fff;
     width: 190px;
 }
 .advantages__img-bg{
@@ -299,4 +309,91 @@ nav{
 }
 .advantages__el-text{
     font-size: 16px;
+}
+
+.gallery{
+    background-image: url(./Images/shape_bg.png);
+    background-size: cover;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.gallery__images{
+    flex-grow:1;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1450px;
+    justify-content: center;
+}
+.gallery__img{  
+    width: 249px;
+    height: 311px;
+}
+
+.result{
+     background-image: url(./Images/result_bg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: #fff;
+     padding-top: 99px;
+     padding-bottom: 99px;
+}
+.result__header{
+
+}
+.result__list{
+    margin-left: 95px;
+}
+.result__list-el{
+
+}
+.result__el-number{
+    font-family: "HATTEN";
+    font-size: 32px;
+    font-weight: normal;
+    color: #4d78f7;
+    text-align: center;
+    width: 197px;
+}
+.result__el-text{
+    font-family: "Open Sans Semibold";
+    text-shadow: 1px 1px 100px #4D78F7;
+    width: 197px;
+    text-align: center;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    height: 300px;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+
+footer > p{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+footer > p:nth-child(1){
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1925px){
+    .gallery__img:nth-last-child(-n+2){
+        display: none;
+    }
 }
